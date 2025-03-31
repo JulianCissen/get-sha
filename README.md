@@ -2,6 +2,8 @@
 
 A modern, cross-platform tool for generating SHA-256 and SHA-512 hashes.
 
+**🔗 [Try the live application here](https://juliancissen.github.io/get-sha/)**
+
 ## Project Overview
 
 This repository contains tools for generating secure hash algorithms (SHA):
