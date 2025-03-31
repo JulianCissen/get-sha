@@ -1,6 +1,6 @@
 {
   "name": "get-sha-web-app",
-  "productName": "get-sha",
+  "productName": "Get-SHA",
   "author": "Julian Cissen",
   "type": "module",
   "private": true,
