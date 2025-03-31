@@ -1,0 +1,36 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+// SHA Generator Application Color Scheme
+$primary   : #2C3E50; // Deep slate blue - main brand color
+$secondary : #34B3A7; // Mint green - secondary brand color
+$accent    : #5D5FEF; // Vibrant indigo - for highlights and actions
+
+$dark      : #1A2234; // Darker slate for dark mode
+$dark-page : #0F1525; // Even darker background for dark mode pages
+
+$positive  : #00C853; // Green for success messages
+$negative  : #FF5252; // Red for errors  
+$info      : #4FC3F7; // Light blue for informational messages
+$warning   : #FFB300; // Amber for warnings
+
+:root {
+  --q-primary: #{$primary};
+  --q-secondary: #{$secondary};
+  --q-accent: #{$accent};
+}
+
+body.body--dark {
+  --q-primary: #8EACBB; // Lighter blue-gray for dark mode
+}
