@@ -10,7 +10,7 @@ export const getShaDigest = async (
     const encoder = new TextEncoder();
     const dataBuffer = encoder.encode(data);
 
-    // Use the Web Crypto API to create the hash
+    // Use the Web Crypto API to create the cryptographic hash digest
     const hashBuffer = await window.crypto.subtle.digest(
         {
             name: alg === 'sha256' ? 'SHA-256' : 'SHA-512',
@@ -18,7 +18,7 @@ export const getShaDigest = async (
         dataBuffer,
     );
 
-    // Convert the hash to base64
+    // Convert the hash digest to base64 encoding for display
     const hashArray = Array.from(new Uint8Array(hashBuffer));
     const hashBase64 = btoa(String.fromCharCode(...hashArray));
 

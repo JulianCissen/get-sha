@@ -1,12 +1,12 @@
 # SHA Hash Generator Web Application
 
-A modern web application for generating SHA-256 and SHA-512 hashes using browser-native Web Crypto API.
+A modern web application for generating SHA-256 and SHA-512 cryptographic hash digests in base64 encoding using browser-native Web Crypto API.
 
 ![SHA Generator Screenshot](https://via.placeholder.com/800x450.png?text=SHA+Generator+Screenshot)
 
 ## Features
 
-- Generate SHA-256 and SHA-512 hashes
+- Generate base64-encoded SHA-256 and SHA-512 cryptographic hash digests
 - Dark/Light mode toggle
 - Copy to clipboard functionality
 - Responsive design for all devices
@@ -78,3 +78,4 @@ packages/web-app/
 - [Vue.js 3](https://vuejs.org/) - Progressive JavaScript framework
 - [Quasar Framework](https://quasar.dev/) - Vue.js based framework
 - [Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) - For cryptographic operations
+- Base64 Encoding - For representing binary hash digests in text format

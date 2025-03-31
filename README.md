@@ -1,6 +1,6 @@
 # SHA Hash Generator
 
-A modern, cross-platform tool for generating SHA-256 and SHA-512 hashes.
+A modern, cross-platform tool for generating SHA-256 and SHA-512 cryptographic hash digests with base64 encoding.
 
 **🔗 [Try the live application here](https://juliancissen.github.io/get-sha/)**
 
@@ -8,7 +8,7 @@ A modern, cross-platform tool for generating SHA-256 and SHA-512 hashes.
 
 This repository contains tools for generating secure hash algorithms (SHA):
 
-- **Web Application**: A responsive SHA generator built with Vue.js and Quasar
+- **Web Application**: A responsive SHA generator built with Vue.js and Quasar that outputs base64-encoded digests
 - More tools to come!
 
 ![SHA Generator Screenshot](https://via.placeholder.com/800x450.png?text=SHA+Generator+Screenshot)
@@ -17,7 +17,7 @@ This repository contains tools for generating secure hash algorithms (SHA):
 
 | Package | Description |
 |---------|-------------|
-| [web-app](./packages/web-app) | Web application for generating SHA hashes using the Web Crypto API |
+| [web-app](./packages/web-app) | Web application for generating base64-encoded SHA cryptographic hash digests using the Web Crypto API |
 
 ## Getting Started
 

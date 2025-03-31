@@ -41,7 +41,9 @@
             </q-card>
 
             <q-card v-if="input" bordered class="q-pa-md" flat>
-                <div class="text-subtitle1 q-mb-sm">Generated Hash</div>
+                <div class="text-subtitle1 q-mb-sm">
+                    Generated Hash Digest (Base64 Encoded)
+                </div>
                 <div class="result-container">
                     <q-spinner
                         v-if="isCalculating"
@@ -123,7 +125,7 @@ const copyToClipboard = () => {
         .then(() => {
             Notify.create({
                 color: 'positive',
-                message: 'Hash copied to clipboard',
+                message: 'Hash digest copied to clipboard',
                 icon: 'check',
                 timeout: 2000,
             });
