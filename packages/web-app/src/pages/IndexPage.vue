@@ -45,15 +45,11 @@
                     Generated Hash Digest (Base64 Encoded)
                 </div>
                 <div class="result-container">
-                    <q-spinner
-                        v-if="isCalculating"
-                        color="primary"
-                        size="2em"
-                    />
                     <q-input
-                        v-else-if="digest"
+                        v-if="digest"
                         v-model="digest"
                         class="digest-value"
+                        :disable="isCalculating"
                         filled
                         readonly
                     >
