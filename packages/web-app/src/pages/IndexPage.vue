@@ -116,10 +116,10 @@ const digest = computed(() => {
 });
 
 const copyToClipboard = () => {
-    if (!digestValue.value) return;
+    if (!digest.value) return;
 
     navigator.clipboard
-        .writeText(digestValue.value)
+        .writeText(digest.value)
         .then(() => {
             Notify.create({
                 color: 'positive',
