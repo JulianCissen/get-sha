@@ -4,8 +4,7 @@ node_modules
 
 # Quasar core related directories
 .quasar
-# Commit dist files to the repository for github pages
-# /dist
+/dist
 /quasar.config.*.temporary.compiled*
 
 # Cordova related directories and files
