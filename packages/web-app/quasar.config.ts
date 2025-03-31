@@ -6,7 +6,7 @@ import { defineConfig } from '#q-app/wrappers';
 export default defineConfig((/* ctx */) => {
     return {
         // Hard coded base URL for github pages
-        base: 'https://juliancissen.github.io/get-sha/',
+        base: './',
 
         // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
         // preFetch: true,
