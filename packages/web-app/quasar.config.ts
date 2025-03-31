@@ -5,9 +5,6 @@ import { defineConfig } from '#q-app/wrappers';
 
 export default defineConfig((/* ctx */) => {
     return {
-        // Hard coded base URL for github pages
-        base: './',
-
         // https://v2.quasar.dev/quasar-cli-vite/prefetch-feature
         // preFetch: true,
 
@@ -35,6 +32,9 @@ export default defineConfig((/* ctx */) => {
 
         // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#build
         build: {
+            // Hard coded public path for GitHub Pages
+            publicPath: '/get-sha',
+
             target: {
                 browser: ['es2022', 'firefox115', 'chrome115', 'safari14'],
                 node: 'node20',
