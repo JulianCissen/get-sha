@@ -1,6 +1,6 @@
 # SHA Hash Generator
 
-A modern, cross-platform tool for generating SHA-256 and SHA-512 cryptographic hash digests with base64 encoding.
+A modern, cross-platform tool for generating SHA-256 and SHA-512 cryptographic hash digests encoded using base64.
 
 **🔗 [Try the live application here](https://juliancissen.github.io/get-sha/)**
 

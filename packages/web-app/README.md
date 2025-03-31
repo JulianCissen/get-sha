@@ -1,6 +1,6 @@
 # SHA Hash Generator Web Application
 
-A modern web application for generating SHA-256 and SHA-512 cryptographic hash digests in base64 encoding using browser-native Web Crypto API.
+A modern web application for generating SHA-256 and SHA-512 cryptographic hash digests encoded using base64 using browser-native Web Crypto API.
 
 ![SHA Generator Screenshot](https://via.placeholder.com/800x450.png?text=SHA+Generator+Screenshot)
 
