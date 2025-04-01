@@ -11,8 +11,6 @@ This repository contains tools for generating secure hash algorithms (SHA):
 - **Web Application**: A responsive SHA generator built with Vue.js and Quasar that outputs base64-encoded digests
 - More tools to come!
 
-![SHA Generator Screenshot](https://via.placeholder.com/800x450.png?text=SHA+Generator+Screenshot)
-
 ## Packages
 
 | Package | Description |
